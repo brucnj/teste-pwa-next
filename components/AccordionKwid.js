@@ -22,8 +22,8 @@ export default function AccordionLanding(props) {
       <p className="px-8 pt-0 -mt-2 text-gray-500 transition-all duration-200 sm:text-lg py-7 " style={{ display: isShowing ? "block" : "none", padding: "5px" }}>
           <img src={props.img} />
           <h6 className="pt-3 text-2xl font-extrabold">{props.subtitle}</h6>
-          <span className="pt-4 text-sm my-1">{props.content}</span>
-          <button className="my-5 block py-3 px-10 mx-auto bg-black text-white">Consultar condições</button>
+          <span className="pt-4 my-1 text-sm">{props.content}</span>
+          <button className="block px-10 py-3 mx-auto my-5 text-white bg-black">Consultar condições</button>
       </p>
     </div>
   );

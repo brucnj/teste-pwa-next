@@ -109,8 +109,8 @@ export default function Kwid() {
         
     })
     
-    function classNames(...classes) {
-        return classes.filter(Boolean).join(' ')
+    function classNames(...classNamees) {
+        return classNamees.filter(Boolean).join(' ')
     }
     return (
         <>
@@ -208,111 +208,111 @@ export default function Kwid() {
                                             <h6 className="mb-5 text-base font-thin text-center text-gray-400">A partir de R$ 48.790</h6>
                                             <ul className="px-20 lg:px-12 xl:px-16 2xl:px-28">
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Estofamento Life</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Bancos em tecido</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Tomada 12V</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Apoio de cabeça traseiro central e laterais com ajustes de altura</span>
                                                 </li>
                                                 <div className="transition-all duration-150" style={{ display: isShowing ? "block" : "none", padding: "5px" }}>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Ar-quente</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Banco rebatível 1/1</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Retrovisores e maçanetas pretos</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Alerta sonoro e visual do uso do cinto de segurança do motorista e passageiro</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">ABS</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Cinto de segurança central traseiro subabdominal</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Airbags laterais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Sistema imobilizador do motor</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Isofix</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Cintos de segurança dianteiros retráteis de 3 pontos com regulagem de altura</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Airbags frontais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Indicador de troca de marcha</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Desembaçador de vidro traseiro</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Câmbio manual de 5 velocidades</span>
                                                     </li>
@@ -345,141 +345,141 @@ export default function Kwid() {
                                             <h6 className="mb-5 text-base font-thin text-center text-gray-400">A partir de R$ 59.890</h6>
                                             <ul className="px-20 lg:px-12 xl:px-16 2xl:px-28">
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Estofamento Zen</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Bancos em tecido</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Tomada 12V</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Apoio de cabeça traseiro central e laterais com ajustes de altura</span>
                                                 </li>
                                                 <div className="transition-all duration-150" style={{ display: isShowing ? "block" : "none", padding: "5px" }}>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Ar-condicionado</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Banco rebatível 1/1</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Vidro dianteiros elétricos</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Retrovisores e maçanetas pretos</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Alerta sonoro e visual do uso do cinto de segurança do motorista e passageiro</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">ABS</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Cinto de segurança central traseiro subabdominal</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Airbags laterais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Travamento central das portas</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Sistema imobilizador do motor</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Sistema CAR - Travamento automático a 6km/h</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Isofix</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Cintos de segurança dianteiros retráteis de 3 pontos com regulagem de altura</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Airbags frontais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Indicador de troca de marcha</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Direção elétrica</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Desembaçador do vidro traseiro</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Câmbio manual de 5 velocidades</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Limpador do vidro traseiro</span>
                                                     </li>
@@ -512,153 +512,153 @@ export default function Kwid() {
                                             <h6 className="mb-5 text-base font-thin text-center text-gray-400">A partir de R$ 61.590</h6>
                                             <ul className="px-20 lg:px-12 xl:px-16 2xl:px-28">
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Roda Intense</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Estofamento Connect</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Banco em tecido</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Computador de bordo multifunções</span>
                                                 </li>
                                                 <div className="transition-all duration-150" style={{ display: isShowing ? "block" : "none", padding: "5px" }}>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Tomada 12V</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Apoio de cabeça traseiro central e laterais com ajuste de altura</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Banco rebatível 1/1</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Ar-condicionado</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Vidros dianteiros elétricos</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Faróis de neblina</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Alerta sonoro e visual do uso do cinto de segurança do motorista e passageiro</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">ABS</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Cinto de segurança central traseiro subabdominal</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Airbags laterais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Travamento central das portas</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Sistema imobilizador do motor</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Sistema CAR - Travamento automático a 6km/h</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Isofix</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Cinto de segurança dianteiros retráteis de 3 pontos com regulagem de altura</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Airbags frontais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Indicador de troca de marcha</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Direção elétrica</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Desembaçador do vidro traseiro</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Câmbio manual de 5 velocidades</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Limpador de vidro traseiro</span>
                                                     </li>
@@ -691,153 +691,153 @@ export default function Kwid() {
                                             <h6 className="mb-5 text-base font-thin text-center text-gray-400">A partir de R$ 62.990</h6>
                                             <ul className="px-20 lg:px-12 xl:px-16 2xl:px-28">
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Bancos exclusivos Outsider</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Bancos em tecido</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Computador de bordo multifunções</span>
                                                 </li>
                                                 <li className="inline-flex">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                     </svg>
                                                     <span className="ml-2 text-sm font-normal">Tomada 12V</span>
                                                 </li>
                                                 <div className="transition-all duration-150" style={{ display: isShowing ? "block" : "none", padding: "5px" }}>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Apoio de cabeça traseiro central e laterais com ajuste de altura</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Banco rebatível 1/1 </span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Ar-condicionado</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Vidros dianteiros elétricos</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Marcação Outsider nas laterais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Faróis de neblina</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Alerta sonoro e visual do uso do cinto de segurança do motorista e passageiro</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">ABS</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Cinto de segurança central traseiro subabdominal</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Airbags laterais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Travamento central das portas</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Sistema imobilizador do motor</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Sistema CAR - Travamento automático a 6km/h</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Isofix</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Cintos de segurança dianteiros retráteis de 3 pontos com regulagem de altura</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">2 Airbags frontais</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Indicador de troca de marcha</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Direção elétrica</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Desembaçador do vidro traseiro</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Câmbio manual de 5 velocidades</span>
                                                     </li>
                                                     <li className="inline-flex">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                                         </svg>
                                                         <span className="ml-2 text-sm font-normal">Limpador do vidro traseiro</span>
                                                     </li>
@@ -951,11 +951,11 @@ export default function Kwid() {
             </section>
 
             <section className="container px-8 pb-16 mx-auto md:px-20 md:pb-0 md:py-24">
-                <div class="grid grid-cols-2 md:grid-cols-12 gap-2 md:grid-rows-6 md:designRobustez">
-                    <div class="hidden md:block md:col-span-5 md:row-span-2">
+                <div className="grid grid-cols-2 gap-2 md:grid-cols-12 md:grid-rows-6 md:designRobustez">
+                    <div className="hidden md:block md:col-span-5 md:row-span-2">
                         <img src="https://cdn.group.renault.com/ren/br/renault-new-cars/product-plans/kwid/home-produto/resize_kwid_outsider_0019_Layer%20Comp%2020.jpg.ximg.small.webp/1575392889013.webp" className="w-full h-full"/>
                     </div>
-                    <div class="col-span-2 md:col-span-7 md:row-span-3 md:max-w-2xl">
+                    <div className="col-span-2 md:col-span-7 md:row-span-3 md:max-w-2xl">
                         <span className="text-xl text-gray-700">design e robustez</span>
                         <h2 className="mt-2 mb-4 text-2xl font-extrabold uppercase md:text-4xl">Robustez, tecnologia e conforto</h2>
                         <p className="text-sm md:text-base">O Kwid une o design de SUV às melhores características de um compacto: a economia e a praticidade.</p>
@@ -964,20 +964,20 @@ export default function Kwid() {
                     <div className="block col-span-1 md:hidden">
                         <img src="https://cdn.group.renault.com/ren/br/renault-new-cars/product-plans/kwid/home-produto/resize_kwid_outsider_0019_Layer%20Comp%2020.jpg.ximg.small.webp/1575392889013.webp" className="w-full h-full"/>
                     </div>
-                    <div class="col-span-1 md:col-span-5 md:row-span-2">
+                    <div className="col-span-1 md:col-span-5 md:row-span-2">
                         <img src="https://cdn.group.renault.com/ren/br/renault-new-cars/product-plans/kwid/home-produto/03-espaco-interno-2.jpg.ximg.small.webp/1575392943823.webp" className="w-full h-full" />
                     </div>
-                    <div class="col-span-1 md:col-span-3">
+                    <div className="col-span-1 md:col-span-3">
                         <img src="https://cdn.group.renault.com/ren/br/renault-new-cars/product-plans/kwid/sobre-o-carro/resize_kwid_outsider_0010_Layer%20Comp%2011.jpg.ximg.small.webp/1575392760246.webp" className="w-full h-full" />
                     </div>
-                    <div class="col-span-1 md:col-span-4 md:row-span-2">
+                    <div className="col-span-1 md:col-span-4 md:row-span-2">
                         <img src="https://cdn.group.renault.com/ren/br/renault-new-cars/product-plans/kwid/12-20/6.jpg.ximg.small.webp/f60fcaa678.webp" className="w-full h-full" />
                     </div>
-                    <div class="hidden md:col-span-3 md:row-span-2">&nbsp;</div>
-                    <div class="col-span-1 md:col-span-5 md:row-span-2">
+                    <div className="hidden md:col-span-3 md:row-span-2">&nbsp;</div>
+                    <div className="col-span-1 md:col-span-5 md:row-span-2">
                         <img src="https://cdn.group.renault.com/ren/br/renault-new-cars/product-plans/kwid/12-20/12.jpg.ximg.small.webp/31a40515d1.webp" className="w-full h-full" />
                     </div>
-                    <div class="hidden md:col-span-4 md:row-span-2 ">&nbsp;</div>
+                    <div className="hidden md:col-span-4 md:row-span-2 ">&nbsp;</div>
                 </div>
             </section>
                    
@@ -1084,8 +1084,8 @@ export default function Kwid() {
                             <SwiperSlide>
                                 <div className="py-10 bg-white h-96">
                                     <div className="w-40 h-40 mx-auto border-4 border-black rounded-full">
-                                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 mx-auto my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                        {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-20 h-20 mx-auto my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                                         </svg> */}
                                         <svg className="w-24 h-24 mx-auto mt-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.87 360.6"><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path d="M22.75,112.15V0H173V112c2.1.43,3.88.67,5.57,1.17,11.25,3.35,17.19,11.47,17.23,24,.09,22.83,0,45.66,0,68.49v5.85c24.59-3.85,46.34,1.62,64.84,17.85a72,72,0,0,1,24.11,43.2c6.66,39.7-18.1,75.7-55.67,85.8-33.69,9.06-81-8.92-92.6-57.69h-8.38v44.61H113V300.72H83.13v44.55h-15V300.48c-4.9,0-9.48.15-14,0-8.47-.33-17.19.31-25.33-1.54C11.11,294.89.25,280.4.15,261.59c-.23-41.66-.16-83.32,0-125C.17,122.71,8,114.38,22.75,112.15Zm112.4,173.29c.28-1.44.57-2.38.65-3.35,2.21-28.85,15.79-50.3,41.64-63.65,2.88-1.48,3.43-3.4,3.41-6.34-.1-24.33,0-48.66-.06-73,0-9.46-2-11.52-11.35-11.52h-143c-9.31,0-11.34,2.06-11.34,11.53q0,60,0,120c0,17.63,8.78,26.32,26.53,26.33q44,0,88,0ZM38.1,112.07H157.79V14.83H38.1ZM150.86,285.65a60,60,0,0,0,60,59.94c33.12,0,60.23-27.4,60.07-60.61-.15-33-27.23-59.58-60.49-59.48A59.64,59.64,0,0,0,150.86,285.65Z"/><path d="M82.61,82.27H53.31V60.09h29.3Z"/><path d="M113.11,82.11v-22h29.51v22Z"/><path d="M192.24,326.44c5.79-12.64,11.59-25.28,17.55-38.3H188c.41-1,.63-1.76,1-2.43,6.54-13.09,13.12-26.15,19.59-39.28a3.34,3.34,0,0,1,3.57-2.21c5.29.12,10.58,0,16.41,0L209.9,275.05h23.9l-41.15,51.82Z"/></g></g></svg>
                                     </div>
@@ -1101,8 +1101,8 @@ export default function Kwid() {
                             <SwiperSlide>
                                 <div className="py-10 bg-white h-96">
                                     <div className="w-40 h-40 mx-auto border-4 border-black rounded-full">
-                                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 mx-auto my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                                        {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-20 h-20 mx-auto my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                                         </svg> */}
                                         <svg className="w-24 h-24 mx-auto mt-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.28 322.31"><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path d="M55.58,269c-6.55,0-13.19,0-19.84,0C13.59,268.9,0,255.27,0,233.05q0-34.76,0-69.51C0,133.36,18.66,111.81,48.55,107q23.91-3.82,47.67-8.41A9.45,9.45,0,0,0,102,94.25C113.34,72.58,124.45,50.78,135.54,29,144.87,10.66,160.2,1.67,180.27.24c6-.43,12-.15,18-.15,51.33,0,102.66.08,154,0C370,0,384.67,6.43,396.13,20a30.3,30.3,0,0,1,3.79,5.82c11.64,22.64,23.3,45.27,34.71,68,1.64,3.26,3.77,4.54,7.11,5.16,18.62,3.49,37.37,6.49,55.79,10.89,22.76,5.45,39,26,39.4,49.5.5,25.83.41,51.68.05,77.51-.26,18.52-14.62,31.71-34,32.05-7.15.13-14.3,0-21.69,0-4.12,18.73-13.52,33.64-29.65,44.05-12,7.75-25.2,10.2-39.17,9-23.05-1.95-48.61-19.17-56-52.66h-176c-3.68,17.26-12.31,31.62-27,42-12.07,8.48-25.54,11.55-40.19,10.82C92.85,321.16,64.18,306.15,55.58,269ZM461.9,247.81a9.05,9.05,0,0,1,1.68-.54c13,0,26,0,39-.1,9.12,0,12.89-3.61,12.93-12.67.1-24,.26-48,0-72-.23-18-10.22-29.69-27.87-33.15q-29.86-5.86-59.84-11.2c-3.91-.69-6-2.39-7.73-5.82-12.11-23.9-24.64-47.59-36.56-71.59-6.45-13-16.81-19.08-30.75-19.12q-84.25-.22-168.53,0c-13.94,0-24.22,6.3-30.65,19.27-12.11,24.46-24.76,48.66-37.36,72.88a8.24,8.24,0,0,1-4.9,4c-19.8,3.63-39.65,7-59.5,10.36C33.34,131.27,22.3,142.22,21.84,160c-.65,25.33-.34,50.68-.18,76,.05,7.38,4.24,11,11.88,11.13,12,.13,24,0,36,0h5.18c.53,7.18.33,13.78,1.6,20.08,3.94,19.56,22.54,34.08,42.27,33.6,21.55-.51,39-15.85,41.81-37,.71-5.38.66-10.86,1-16.32H375.87c-3.43,35.82,21.24,53,42.66,53.23a42.16,42.16,0,0,0,29.93-11.71C460.53,277.85,462.59,263.28,461.9,247.81Z"/><path d="M226,118.14c0-9-.38-17.15.08-25.28,1-17.28,15.39-32.35,32.17-37.1C285.83,47.94,312,70.22,311.61,99c-.09,6.15,0,12.3,0,19.18,2.95,0,5.56,0,8.15,0,8.8.19,13.27,4.59,13.29,13.24q.06,30,0,60c0,8.39-4.24,12.77-12.56,12.79q-52,.1-104,0c-8.23,0-12.41-4.46-12.43-12.91q-.08-30,0-60c0-8.56,4.34-12.86,12.91-13.1C219.59,118.07,222.22,118.14,226,118.14Zm64-.21c0-7.89.44-15.37-.1-22.78a21.52,21.52,0,0,0-20.69-19.88,20.86,20.86,0,0,0-21.55,18.24c-1,8-.19,16.14-.19,24.42Z"/></g></g></svg>
                                     </div>
@@ -1118,8 +1118,8 @@ export default function Kwid() {
                             <SwiperSlide>
                                 <div className="py-10 bg-white h-96">
                                     <div className="w-40 h-40 mx-auto border-4 border-black rounded-full">
-                                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 mx-auto my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                        {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-20 h-20 mx-auto my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                                         </svg> */}
                                         <svg className="w-24 h-24 mx-auto mt-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 644.77 489.78"><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path d="M360.83,55.29c13.43,6.24,26.56,10.94,38.23,18,33.65,20.48,54,50.9,61.52,89.38,2.69,13.78,3.35,28.08,3.62,42.17.61,32.31.18,64.64.62,97,.21,15.62,6.38,29.79,12.51,43.85,8.78,20.14,21.82,37.71,33.77,55.94A46.79,46.79,0,0,1,514,406.3c4.75,9.51-1.06,19-11.76,19q-54.73.07-109.47,0h-5.68c-.9,20.5-8.64,37.38-24.4,50.2C350.28,485.6,336,490,320.05,489.77c-28.95-.33-61-24.19-62.44-64.45h-5.26c-36.16,0-72.31-.07-108.47.07-5.87,0-10.49-1.63-13.45-6.76-3.08-5.33-1.31-10.23,1.69-15,10.12-16,20.77-31.79,30.15-48.25a144.68,144.68,0,0,0,17.16-49.76,103.41,103.41,0,0,0,.8-15.45c.07-30.66,0-61.32.05-92,.05-19.07,2.17-37.87,8.49-56,15-43,44.17-71.27,88.12-83.71,5.24-1.49,7.05-3.39,6.95-8.93-.14-7.57-.07-15.48,1.9-22.7C290.73,8.51,309-2.23,328.92.39c16.65,2.19,31.19,18.47,31.87,36C361.05,43.16,360.83,50,360.83,55.29ZM166.26,399.14h311.9c-4.77-7.63-9.35-14.7-13.66-21.93-17.47-29.34-27.64-60.53-26.43-95.27,1-27.47.41-55,.08-82.49-.13-10.45-.55-21.07-2.5-31.29-8.15-42.81-32-72.55-74.46-85.4C331.9,73.89,302.28,74.42,274,86c-43.28,17.75-64.86,52.06-66.95,97.88-1.62,35.42-.35,71-.86,106.46A168.09,168.09,0,0,1,203,320.52c-4.88,24.51-16.24,46.35-29.34,67.37C171.36,391.5,169,395,166.26,399.14Zm194.33,26.5H284c-.84,20.44,17.81,38.88,38.57,38.46C343.78,463.68,361.55,445.85,360.59,425.64ZM335.26,51.9c0-3.84,0-7.64,0-11.44A30.61,30.61,0,0,0,334.9,36a12.94,12.94,0,0,0-11.84-10.39c-5.28-.41-11.9,3.35-12.79,8.45-1,5.91-.79,12-1.09,17.86Z"/><path d="M578.45,57.66l21.23-13c29.12,47.44,43.46,98.83,45,153.94,1.82,66.34-18.79,129.26-45.3,168.77l-20.87-12.8C632.69,255.51,632.78,156.87,578.45,57.66Z"/><path d="M45.24,44.85c7.23,4.44,14.17,8.69,20.91,12.84C11.88,156.6,11.9,255.16,66.08,354.44c-3,1.87-6.64,4.14-10.28,6.39s-7,4.31-10.57,6.46C-14.63,275.74-15.53,138.5,45.24,44.85Z"/><path d="M543.88,332.8c-1.33-.71-2.37-1.2-3.36-1.78-6.14-3.66-12.27-7.33-18.26-10.92,42.08-75.83,43.87-151.41.09-227.73l21.11-13.22C588.94,147.39,595.6,249.25,543.88,332.8Z"/><path d="M122.25,320l-21.17,12.74c-43.9-68-53.4-169.46-.32-253.75L122.28,92.4C78.38,168.31,80.29,244,122.25,320Z"/></g></g></svg>
                                     </div>
@@ -1135,8 +1135,8 @@ export default function Kwid() {
                             <SwiperSlide>
                                 <div className="py-10 bg-white h-96">
                                     <div className="w-40 h-40 mx-auto border-4 border-black rounded-full">
-                                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 mx-auto my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                                        {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-20 h-20 mx-auto my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                                         </svg> */}
                                         <svg className="w-20 h-20 mx-auto mt-9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310.32 232.52"><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path d="M154.81,232.5q-65.73,0-131.45,0c-5.78,0-11.38-.59-16-4.34A18.62,18.62,0,0,1,0,213Q0,128.8,0,44.58A19.07,19.07,0,0,1,19.25,25.65c17.65-.07,35.32-.2,53,.11,4.32.07,6.89-1.59,9-4.81,2.95-4.42,5.82-8.9,8.86-13.27C93.68,2.56,98.38.1,104.91.14c32,.2,64,.47,96-.13,10-.19,17.36,3,21.24,11.5,5.57,12.22,14.34,15.44,27.08,14.37,13.4-1.13,27-.27,40.46-.24,10.75,0,18.57,7,19.81,17.67a109.92,109.92,0,0,1,.82,12.43q.08,73.71,0,147.43a117.29,117.29,0,0,1-1,13.89c-.82,6.6-7.47,13.32-14.61,14.7a49.61,49.61,0,0,1-9.44.71Q220,232.55,154.81,232.5Zm.05-12.8q65.23,0,130.46,0c9.9,0,12-2.16,12-12q0-18.5,0-37,0-59.22,0-118.46c0-12.39-1.11-13.53-13.2-13.53-16.16,0-32.32-.1-48.48,0-7.11.06-12.55-2.52-16.41-8.51-2.61-4.05-5.47-7.95-8-12-2.31-3.77-5.24-5.33-9.83-5.29-28,.2-56,.76-84-.21-11.9-.42-19.31,2.94-24.37,13.7-4.25,9-11.85,12.93-22.38,12.5-16.46-.68-33-.21-49.47-.17-6.29,0-8.39,2.07-8.39,8.41q-.06,81.74,0,163.45c0,6.54,1.95,8.51,8.59,9,1.82.15,3.66.11,5.5.11Q90.89,219.72,154.86,219.7Z"/><path d="M187,157l-59.2-.63c-1.06,5.36-2.71,10.37-6.59,14.31-7.4,7.54-16.36,10.9-26.59,8-9.8-2.8-15.93-9.88-18.29-19.86-.51-2.17-1.27-2.92-3.39-2.71a42,42,0,0,1-5.5.1c-7.17-.25-12.09-5-12-12.14.17-14.37.42-28.74,1.12-43.09A26.2,26.2,0,0,1,59.9,90.07C64.68,81.36,70,73,75.09,64.41,79.58,56.88,86.3,53.16,95,53.2q30,.13,59.9.5a22.21,22.21,0,0,1,16.76,7.21q14.38,15.45,29,30.73a6.21,6.21,0,0,0,3.89,1.75c9.44.27,18.9.76,28.32.34A22,22,0,0,1,255.28,116c0,9.35-.05,18.71-.3,28.06-.22,8.16-5.4,13.06-13.7,13.26-1.5,0-2.71,0-3.17,2-2.88,12.74-14.9,20.09-25.93,19.94-12.49-.17-22.27-8.89-24.94-21.69A4.19,4.19,0,0,0,187,157Zm-59.63-9.29,59.4.51c.18-.68.27-1,.32-1.24,2.34-11.21,12.79-19.7,24.85-20.16,11.81-.45,23,7.57,26,18.61.86,3.16,2.66,4.12,5.61,2.81,2.26-1,2.74-3.05,2.76-5.3.06-8.87.2-17.74.17-26.62,0-8.49-5.22-13.67-13.71-13.76q-64.77-.65-129.55-1.24L65.14,101c-.33,14.52-.7,28.88-1,43.24a3,3,0,0,0,3.31,3.25c2.79,0,5.58-.09,8.33-.15,3.89-14.47,16.78-21.2,28.85-20C114.64,128.3,124.1,135.21,127.36,147.71Zm3.44-85.46c-.07,10.19-.15,20.18-.23,30.48l59.59.51c-8.94-9.46-17.31-18.33-25.71-27.18-2.48-2.61-5.7-3.53-9.19-3.58C147.26,62.36,139.26,62.32,130.8,62.25Zm-62.23,30,53.22.36c.08-10.31.15-20.3.22-30.56-9.81,0-19.35-.24-28.87,0-4.49.11-8,2.57-10.37,6.47C78.15,76.22,73.55,83.92,68.57,92.26Zm160,53.11a17.48,17.48,0,0,0-23.3-8.22c-8.9,4.26-12.38,14.25-8.1,23.25s14.12,12.48,23.41,8A17.05,17.05,0,0,0,228.55,145.37ZM94,137.85c-9.22,4.66-12.37,14.08-7.73,23.14s14.12,12.32,23.18,7.81,12.27-14.53,7.74-23.53A17,17,0,0,0,94,137.85Z"/></g></g></svg>
                                     </div>
@@ -1204,20 +1204,20 @@ export default function Kwid() {
                 </div>
             </section>
 
-            <div class="py-20 bg-white">
-                <div class="mx-auto max-w-7xl px-8">
-                    <div class="flex flex-col overflow-hidden shadow-xl md:flex-row bg-black">
-                    <div class="flex flex-col w-full p-12 md:w-1/2 lg:w-3/5 md:p-10">
-                        <h2 class="text-4xl font-bold text-left text-white mb-5">Tenha o conforto que você merece</h2>
-                        <p class="mb-10 text-2xl text-left text-gray-400 md:max-w-md">
+            <div className="py-20 bg-white">
+                <div className="px-8 mx-auto max-w-7xl">
+                    <div className="flex flex-col overflow-hidden bg-black shadow-xl md:flex-row">
+                    <div className="flex flex-col w-full p-12 md:w-1/2 lg:w-3/5 md:p-10">
+                        <h2 className="mb-5 text-4xl font-bold text-left text-white">Tenha o conforto que você merece</h2>
+                        <p className="mb-10 text-2xl text-left text-gray-400 md:max-w-md">
                             Confira as condições de financiamento com um de nosssos vendedores                        
                         </p>
-                        <div class="mt-auto">
-                            <a href="#" class="inline-block w-full px-10 py-5 text-lg font-semibold text-center text-black transition duration-100 outline-none md:w-auto md:text-xl" style={{ backgroundColor: '#EFDF00' }}>Entrar em contato</a>
+                        <div className="mt-auto">
+                            <a href="#" className="inline-block w-full px-10 py-5 text-lg font-semibold text-center text-black transition duration-100 outline-none md:w-auto md:text-xl" style={{ backgroundColor: '#EFDF00' }}>Entrar em contato</a>
                         </div>
                     </div>
 
-                    <div class="order-first w-full h-48 bg-gray-700 bg-center bg-cover md:w-1/2 lg:w-2/5 md:h-auto md:order-none" style={{ backgroundImage: "url('https://cdn.group.renault.com/ren/br/renault-new-cars/product-plans/kwid/Resize-1.jpg.ximg.xsmallx2.webp/4f1434aacd.webp')" }}></div>
+                    <div className="order-first w-full h-48 bg-gray-700 bg-center bg-cover md:w-1/2 lg:w-2/5 md:h-auto md:order-none" style={{ backgroundImage: "url('https://cdn.group.renault.com/ren/br/renault-new-cars/product-plans/kwid/Resize-1.jpg.ximg.xsmallx2.webp/4f1434aacd.webp')" }}></div>
                     </div>
                 </div>
             </div>
