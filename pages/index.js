@@ -12,7 +12,9 @@ export default function Home() {
         const videoMedia = await navigator.mediaDevices.getUserMedia({
           video: true
         });
-    
+        const videoTracks = videoMedia.getVideoTracks()
+        const track = videoTracks[0]
+        alert(`Getting video from: ${track.label}`)
         document.querySelector('video').srcObject = new MediaStream(videoMedia);
       }
     }
