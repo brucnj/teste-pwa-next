@@ -9,11 +9,13 @@ export default function Home() {
   
   useEffect(() => {
     async function media(){
-      const videoMedia = await navigator.mediaDevices.getUserMedia({
-        video: true
-      });
-  
-      document.querySelector('video').srcObject = new MediaStream(videoMedia);
+      if(activeMedia){
+        const videoMedia = await navigator.mediaDevices.getUserMedia({
+          video: true
+        });
+    
+        document.querySelector('video').srcObject = new MediaStream(videoMedia);
+      }
     }
 
     media();
