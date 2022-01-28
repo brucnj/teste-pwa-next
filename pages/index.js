@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
@@ -24,7 +23,8 @@ export default function Home() {
 
   return (
     <>
-     <div className={styles.container}>
+      <Script src="https://webrtc.github.io/adapter/adapter-latest.js"></Script>
+      <div className={styles.container}>
         <div className={styles.container}>
           <Link href="/lp/kwid">
             <a className="px-10 py-5 mx-auto text-lg font-bold leading-7 text-white bg-stone-900">Ir para Landing Kwid</a>
@@ -34,7 +34,6 @@ export default function Home() {
           <video autoPlay></video>
         </div>
       </div>
-      <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
     </>
    
   )
