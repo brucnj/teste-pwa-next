@@ -23,15 +23,19 @@ export default function Home() {
 
 
   return (
-    <div className={styles.container}>
-      <div className={styles.container}>
-        <Link href="/lp/kwid">
-          <a className="px-10 py-5 mx-auto text-lg font-bold leading-7 text-white bg-stone-900">Ir para Landing Kwid</a>
-        </Link>
+    <>
+     <div className={styles.container}>
+        <div className={styles.container}>
+          <Link href="/lp/kwid">
+            <a className="px-10 py-5 mx-auto text-lg font-bold leading-7 text-white bg-stone-900">Ir para Landing Kwid</a>
+          </Link>
 
-        <button onClick={() => setMedia(true)} className="px-10 py-5 mx-auto mt-10 text-lg font-bold leading-7 text-white bg-stone-900"> Abrir Camera</button>
-        <video autoPlay></video>
+          <button onClick={() => setMedia(true)} className="px-10 py-5 mx-auto mt-10 text-lg font-bold leading-7 text-white bg-stone-900"> Abrir Camera</button>
+          <video autoPlay></video>
+        </div>
       </div>
-    </div>
+      <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    </>
+   
   )
 }
