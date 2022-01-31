@@ -66,7 +66,7 @@ export default function Home() {
     <>
       {/* Teste 6 */}
       <div className={ styles.container }>
-        <video id="video" width="640" height="480" autoplay></video>
+        <video id="video" width="640" height="480" autoPlay></video>
         <button id="snap">Snap Photo</button>
         <canvas id="canvas" width="640" height="480"></canvas>
       </div>
