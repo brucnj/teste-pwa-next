@@ -15,12 +15,14 @@ const CameraComponent = () => {
     //     // imageElement.src = imageUrl;
     //     setImageReady({ isReady: true, url: imageUrl });
     // };
+    useEffect(() => {
         const player = document.getElementById('player');
 
         navigator.mediaDevices.getUserMedia({ video: true })
         .then((stream) => {
           player.srcObject = stream;
         });
+    })
 
     return(
         <>
