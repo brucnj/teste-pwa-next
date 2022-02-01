@@ -1,7 +1,7 @@
 import { useRef, useState } from "react"
 import styles from '../styles/Home.module.css'
 
-export default function AudioRecorder(){
+const AudioRecorder = () => {
     const [stream, setStream] = useState({ access: false, recorder: null, error: "" });
     const [recording, setRecording] = useState({ active: false, available: false, url: "" });
     const chunks = useRef([]);
@@ -54,3 +54,5 @@ export default function AudioRecorder(){
         </>
     )
 }
+
+export default AudioRecorder

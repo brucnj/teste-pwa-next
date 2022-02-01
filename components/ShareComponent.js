@@ -1,6 +1,6 @@
 import { Share } from '@capacitor/share'
 
-export default function ShareComponent({ title, text, url, dialogTitle }){
+const ShareComponent = ({ title, text, url, dialogTitle }) => {
     const share = async () =>{
         await Share.share({
             title: title,
@@ -16,3 +16,5 @@ export default function ShareComponent({ title, text, url, dialogTitle }){
         </>
     )
 }
+
+export default ShareComponent
