@@ -15,18 +15,19 @@ const CameraComponent = () => {
     //     // imageElement.src = imageUrl;
     //     setImageReady({ isReady: true, url: imageUrl });
     // };
-    useEffect(() => {
+
+    function getVideo(){
         const player = document.getElementById('player');
 
         navigator.mediaDevices.getUserMedia({ video: true })
         .then((stream) => {
           player.srcObject = stream;
         });
-    })
+    }
 
     return(
         <>
-            {/* <button onClick={getVideo}>Get Video</button> */}
+            <button onClick={getVideo}>Get Video</button>
             <video id="player" controls autoPlay></video>
             {/* <button onClick={takePicture} className="px-10 py-5 text-white bg-stone-900"> Tirar Foto</button>
             {imageReady.isReady && 
