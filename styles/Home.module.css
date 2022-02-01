@@ -119,3 +119,18 @@
     flex-direction: column;
   }
 }
+
+
+.recording {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1rem;
+  animation: record 2s infinite;
+}
+@keyframes record {
+  from { background-color: transparent }
+  50% { background-color: red; color: white; }
+  to { background-color: transparent }
+}
