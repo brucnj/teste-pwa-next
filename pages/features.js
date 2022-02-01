@@ -21,7 +21,7 @@ export default function Features() {
                 </div>
                 <div>
                     <h2 className="mb-5 text-3xl font-bold">Teste Vibração</h2>
-                    <button onClick={() => {navigator.vibrate(2000)}} className="px-10 py-5 text-white bg-stone-900">Teste de Vibração</button>
+                    <button onClick={() => {navigator.vibrate(5000)}} className="px-10 py-5 text-white bg-stone-900">Teste de Vibração</button>
                 </div>
             </div>
         </div>
