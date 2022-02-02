@@ -1,6 +1,5 @@
 import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from 'react'
-import { useEffect } from 'react/cjs/react.development';
+import { Fragment, useState, useEffect } from 'react'
 
 export default function CameraModal() {
     let [isOpen, setIsOpen] = useState(true);
