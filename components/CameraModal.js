@@ -12,12 +12,16 @@ export default function CameraModal() {
 
     // Ativação da Camêra
     useEffect(() => {
-        
         navigator.mediaDevices.getUserMedia({ video: true })
             .then((video) => {
                 const player = document.getElementById('player');
                 video.getVideoTracks();
-                player.srcObject = video;
+
+                if('srcObject' in player){
+                    player.srcObject = video;
+                } else {
+                    player.src = URL.createObjectURL(video);
+                }
             });
     })
 
