@@ -12,17 +12,50 @@ export default function CameraModal() {
 
     // Ativação da Camêra
     useEffect(() => {
-        navigator.mediaDevices.getUserMedia({ video: true })
-            .then((video) => {
-                const player = document.getElementById('player');
-                video.getVideoTracks();
-
-                if('srcObject' in player){
-                    player.srcObject = video;
+        function getUserMedia(constraints) {
+            // if Promise-based API is available, use it
+            if (navigator.mediaDevices) {
+              return navigator.mediaDevices.getUserMedia(constraints);
+            }
+              
+            // otherwise try falling back to old, possibly prefixed API...
+            var legacyApi = navigator.getUserMedia || navigator.webkitGetUserMedia ||
+              navigator.mozGetUserMedia || navigator.msGetUserMedia;
+              
+            if (legacyApi) {
+              // ...and promisify it
+              return new Promise(function (resolve, reject) {
+                legacyApi.bind(navigator)(constraints, resolve, reject);
+              });
+            }
+          }
+          
+            if (!navigator.mediaDevices && !navigator.getUserMedia && !navigator.webkitGetUserMedia &&
+              !navigator.mozGetUserMedia && !navigator.msGetUserMedia) {
+              alert('User Media API not supported.');
+              return;
+            }
+          
+            var constraints = {};
+            constraints['video'] = true;
+            
+            getUserMedia(constraints)
+              .then(function (stream) {
+                var mediaControl = document.querySelector('video');
+                
+                if ('srcObject' in mediaControl) {
+                  mediaControl.srcObject = stream;
+                } else if (navigator.mozGetUserMedia) {
+                  mediaControl.mozSrcObject = stream;
                 } else {
-                    player.src = URL.createObjectURL(video);
+                  mediaControl.src = (window.URL || window.webkitURL).createObjectURL(stream);
                 }
-            });
+                
+                mediaControl.play();
+              })
+              .catch(function (err) {
+                alert('Error: ' + err);
+              });
     })
 
     function getPhoto(){
