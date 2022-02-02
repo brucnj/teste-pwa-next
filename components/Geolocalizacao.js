@@ -1,4 +1,4 @@
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 
 const Geolocalizacao = () => {
     const [location, setLocation] = useState({ access: false, latitude: "", longitude: "",  accuracy: "" })
