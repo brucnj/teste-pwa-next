@@ -1,13 +1,20 @@
 import { Share } from '@capacitor/share'
 
-const ShareComponent = ({ title, text, url, dialogTitle }) => {
-    const share = async () =>{
-        await Share.share({
+const ShareComponent = ({ title, text, url }) => {
+    // const share = async () =>{
+    //     await Share.share({
+    //         title: title,
+    //         text: text,
+    //         url: url,
+    //         dialogTitle: dialogTitle
+    //     });
+    // }
+    const share = async () => {
+        await navigator.share({
             title: title,
             text: text,
-            url: url,
-            dialogTitle: dialogTitle
-        });
+            url: url
+        })
     }
 
     return(
