@@ -3,6 +3,7 @@ import CameraComponent from "../components/CameraComponent";
 import ShareComponent from "../components/ShareComponent";
 import styles from '../styles/Home.module.css'
 import Geolocalizacao from "../components/Geolocalizacao";
+import VideoCapture from "../components/VideoCapture";
 
 export default function Features() {
     return(
@@ -27,6 +28,10 @@ export default function Features() {
                 <div>
                     <h2 className="mb-5 text-3xl font-bold">Geolocalização</h2>
                     <Geolocalizacao />
+                </div>
+                <div>
+                    <h2 className="mb-5 text-3xl font-bold">Video Player</h2>
+                    <VideoCapture />
                 </div>
             </div>
         </div>
