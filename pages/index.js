@@ -31,7 +31,11 @@ export default function Home() {
             <a className="px-10 py-5 mx-auto text-lg font-bold leading-7 text-white bg-stone-900">Features PWA</a>
           </Link>
 
-          <button onClick={modalOpen} className="px-10 py-5 mx-auto mt-10 text-lg font-bold leading-7 text-white bg-stone-900">Abrir Câmera</button>
+          {/* <button onClick={modalOpen} className="px-10 py-5 mx-auto mt-10 text-lg font-bold leading-7 text-white bg-stone-900">Abrir Câmera</button> */}
+
+          <Link href="/camera">
+            <a className="px-10 py-5 mx-auto mt-10 text-lg font-bold leading-7 text-white bg-stone-900">Abrir Câmera</a>
+          </Link>
         </div>
       </div> 
     </>

@@ -108,6 +108,7 @@ export default function CameraModal() {
                             leaveTo="opacity-0 scale-95"
                         >
                              <div className="fixed top-0 left-0 flex items-center justify-center w-full h-full pointer-events-none">
+                                <button onClick={closeModal} className='hidden'></button>
                                 <video id="player" autoPlay style={{ height: '100%', width: '100%' }}></video>
                                 <div className="absolute">
                                     <svg className="w-96 h-96" viewBox="0 0 1952 1213" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,8 +120,8 @@ export default function CameraModal() {
                                         <path d="M775 25H25V1188H775" stroke="black" strokeWidth="50" strokeLinecap="round" strokeLinejoin="round"/>
                                         <path d="M1177 25H1927V1188H1177" stroke="black" strokeWidth="50" strokeLinecap="round" strokeLinejoin="round"/>
                                     </svg>
+                                    <button onClick={getPhoto} className="bottom-0 px-10 py-5 mb-10 text-xl text-white rounded-lg " style={{ background: '#787d62' }}>Tirar Foto</button>
                                 </div>
-                                <button onClick={getPhoto} className="absolute bottom-0 px-10 py-5 mb-10 text-xl text-white rounded-lg" style={{ background: '#787d62' }}>Tirar Foto</button>
                              </div>
                         </Transition.Child>
                     </div>
