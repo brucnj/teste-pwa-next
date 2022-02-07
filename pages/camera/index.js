@@ -69,7 +69,7 @@ export default function Camera(){
         }
           
         var constraints = {};
-        constraints['video'] = true;
+        constraints['video'] = { facingMode: "environment" };
             
         getMedia(constraints)
             .then(function (stream) {
@@ -109,8 +109,6 @@ export default function Camera(){
                 canvas.style.display = "block";
 
                 drawCanvas(canvas, imageBitmap);
-                
-                // modalOpen(imageBitmap);
             });
     }
 
